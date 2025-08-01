@@ -159,6 +159,7 @@ font-family: butler;
     flex-wrap: wrap;
     gap: 30px;
    background: rgba(255, 255, 255, 0.06);
+   padding: 70px;
   
 }
 .restauran-franchises-childeren{
@@ -208,8 +209,6 @@ margin-bottom: 10px;
     
     
 }
-.main-images{
-    padding: 10px 15px;
-}
+
 
 /* <!-- Restaurant Franchises ended --> 
