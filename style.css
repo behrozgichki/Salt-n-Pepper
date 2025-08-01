@@ -25,7 +25,7 @@ body{
 }
 @font-face {
     font-family: appercu;
-    src: url(assets/fonts/Apercu-Font/Apercu\ regular.otf);
+    src: url(assets/fonts/Apercu-Font/Apercu\ medium.otf);
 }
 @font-face {
     font-family: futurak;
@@ -34,6 +34,10 @@ body{
 @font-face {
     font-family: butler;
     src: url(assets/fonts/butler/Butler/Butler_Regular.otf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(assets/fonts/poppins/Poppins-Regular.ttf);
 }
 .nav-items > a{
 text-decoration: none;
@@ -150,8 +154,58 @@ font-family: butler;
 }
 .restaurant-franchises-container{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-
+    gap: 30px;
+  
 }
+.restauran-franchises-childeren{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 35px;
+flex-direction: row;
+}
+.small-text{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--red);
+    letter-spacing: 0.48em;
+    font-family: appercu;
+    font-weight: 400px;
+    margin: 8px 0px;
+}
+.main-text > h3{
+    font-size: 2.6rem;
+    font-family: appercu;
+    font-weight: 200px;
+}
+.main-text > p{
+color: var(--light-grey);
+margin-top: 20px;
+font-size: 1.8rem;
+margin-bottom: 10px;
+}
+.restauran-franchises-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    padding: 20px 25px;
+    border-radius: 50px;
+    width: 174px;
+    height: 50px;
+    font-family: poppins;
+    
+    
+}
+.franchise-btn-icon{
+    background-color: var(--white);
+    color: var(--red);
+     padding: 4px 5px;
+    border-radius: 25px;
+    
+    
+}
+
 /* <!-- Restaurant Franchises ended --> 
