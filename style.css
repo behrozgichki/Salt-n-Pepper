@@ -13,6 +13,7 @@ html{
   --green: #28a745;
   --grey: rgb(255 255 255 / 70%);
   --light-grey: rgba(255, 255, 255, 0.7);
+  --background-color:rgba(255, 255, 255, 0.06);
 }
 body{
     background-color: var(--black); 
@@ -204,10 +205,18 @@ margin-bottom: 10px;
 .franchise-btn-icon{
     background-color: var(--white);
     color: var(--red);
-     padding: 4px 5px;
-    border-radius: 25px;
+    border-radius: 50px;
+    padding: 3px;
     
-    
+}
+.express-franchises{
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+
+}
+.express-franchises > h2{
+    font-size: 2rem;
 }
 
 
