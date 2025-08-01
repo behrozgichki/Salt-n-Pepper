@@ -17,15 +17,51 @@ body{
     background-color: var(--black);
     
 }
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
 .nav-items > a{
-text-align: center;
 text-decoration: none;
 color: var(--white);
-font-size: 1.7rem;
+font-size: 1.9rem;
 }
-.navbar{
+nav{
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    font-family: inter;
     
+}
+.nav-items > button{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+.order-btn{
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 17px;
+}
+.order-icon{
+    background-color: var(--red);
+    color: var(--white);
+    padding: 4px 5px;
+    border-radius: 25px;
 }
