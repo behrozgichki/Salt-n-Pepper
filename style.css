@@ -12,14 +12,24 @@ html{
   --red: #ed1c24;
   --green: #28a745;
   --grey: rgb(255 255 255 / 70%);
+  --light-grey: rgba(255, 255, 255, 0.7);
 }
 body{
-    background-color: var(--black);
+    background-color: var(--black); 
+    color: var(--white);
     
 }
 @font-face {
     font-family: inter;
     src: url(assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: appercu;
+    src: url(assets/fonts/Apercu-Font/Apercu\ regular.otf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(assets/fonts/Futurak/futurak.ttf);
 }
 .nav-items > a{
 text-decoration: none;
@@ -65,3 +75,52 @@ nav{
     padding: 4px 5px;
     border-radius: 25px;
 }
+/* <!-- Welocme to Salt n Pepper started --> */
+.welcome{
+    margin: 50px;
+    font-family: appercu;
+}
+.welcome > h2{
+    font-family: appercu;
+font-size: 3.3rem;
+text-align: center;
+font-weight: 300;
+}
+.welcome > p{
+    padding: 20px 0px;
+    font-size: 1.7rem;
+    color: var(--light-grey);
+    text-align: center;
+}
+.font-futurak{
+    font-family: futurak;
+    font-size: 4.5rem;
+}
+.brands-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.brands-image{
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+}
+.brands-childeren{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+
+}
+.brands-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--light-grey);
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+/* <!-- Welocme to Salt n Pepper ended --> */
