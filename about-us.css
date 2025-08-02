@@ -116,6 +116,7 @@ font-family: inter;
     color:  rgba(255, 255, 255, 0.7);
     font-family: appercu;
     font-weight: 300;
+    padding-bottom: 20px;
 
 }
 .first-img{
@@ -128,15 +129,50 @@ align-items: center;
 }
 .first-img > img{
  float: left;
+ padding: 20px 25px;
 }
 
 .font-futurak{
     font-family: futurak;
+    padding: 10px 0px;
 }
 .intro-first{
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    padding: 20px 25px;
   
 }
+.intro-first-1{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 25px;
+    align-items: center;
+    
+}
+.img-2{
+    float: left;
+    width: 70%;
+
+}
+.text-container > h2{
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: inter;
+}
+.text-container > p{
+     font-size: 1.5rem;
+    color:  rgba(255, 255, 255, 0.7);
+    font-family: appercu;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Introduction ended */
