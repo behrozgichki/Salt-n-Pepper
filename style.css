@@ -224,16 +224,14 @@ margin-bottom: 10px;
 }
 .express-franchises > h2{
     font-size: 5rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
 }
 .express-franchises-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
     text-align: center;
     padding: 20px 15px;
 }
@@ -283,4 +281,13 @@ margin-bottom: 10px;
     border-radius: 25px;
     margin-left: 10px;
 }
+.express-franchises-childeren > h3{
+    font-size: 2rem;
+    font-family: inter;
+    font-weight: 500;
+}
+.express-franchises-childeren > p{
+    font-size: 1.4rem;
+}
+
 /* express franchises ended */
