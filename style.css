@@ -402,7 +402,6 @@ margin-left: 20px ;
 .location-cards h1 {
   font-size: 36px;
   margin-bottom: 10px;
-  text-align: center;
 }
 
 .font-futurak-1 {
@@ -486,3 +485,164 @@ margin-left: 20px ;
 } 
 
    /* location card ended */
+   .social{
+    text-align: center;
+    font-size: 2.4rem;
+display: flex;
+
+justify-content: center;
+padding-bottom: 15px;
+   }
+   /* footer started */
+   
+footer {
+  background-color: #111;
+  color: #f0f0f0;
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+
+.footer,
+.site-links,
+.contact-us {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+
+.footer img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ccc;
+  margin-bottom: 15px;
+  font-family: appercu;
+}
+
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+
+
+.site-links {
+  font-size: 1.6rem;
+  color:var(--white);
+}
+
+.site-links ul {
+  list-style: none;
+  margin-top: 10px;
+  font-family: appercu;
+}
+
+.site-links ul li {
+  margin-bottom: 10px;
+}
+
+.site-links ul li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1.4rem;
+  
+}
+
+
+
+/* Contact Us Section */
+.contact-us {
+  font-size: 16px;
+  color:var(--white);
+  padding: 10px;
+}
+
+.contact-us >p {
+font-family: appercu;
+color:#ccc ;
+
+}
+.span-1{
+    font-family: inter;
+}
+.contact-us ul,
+.contact-us a {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.contact-us span {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-us ul {
+  list-style: none;
+  margin: 10px 0;
+  font-family: appercu;
+}
+
+.contact-us li {
+  margin-bottom: 6px;
+}
+
+.contact-us a {
+  display: inline-block;
+  margin: 8px 0;
+  text-decoration: none;
+  color: #aaa;
+  
+}
+
+.contact-us h4{
+    font-family:inter ;
+}
+
+.icons {
+  margin-top: 20px;
+  font-weight: bold;
+  color:var(--white);
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 20px;
+  color:var(--white);
+  background-color: var(--red);
+  border-radius: 20px;
+  padding:5px;
+
+}
+
+
+
+
+   /* footer ended */
