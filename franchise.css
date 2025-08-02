@@ -15,7 +15,6 @@ html{
   --light-grey: rgba(255, 255, 255, 0.7);
   --background-color:rgba(255, 255, 255, 0.06);
   --green:#28a745;
-  --grey-2:#525252;
 }
 body{
     background-color: var(--black); 
@@ -36,7 +35,7 @@ body{
 }
 @font-face {
     font-family: butler;
-    src: url(assets/fonts/butler-font/Butler_Stencil/Butler_Medium_Stencil.otf);
+    src: url(assets/fonts/butler/Butler/Butler_Regular.otf);
 }
 @font-face {
     font-family: poppins;
@@ -71,15 +70,15 @@ nav{
     gap: 20px;
     flex-wrap: wrap;
 }
- hr{
-  border-color: #525252;
+hr{
+    border-color: #525252;
 }
 .franchise-btn{
     background-color: transparent;
     border: 1px solid var(--white);
     color: var(--white);
     border-radius: 30px;
-     padding: 15px 15px;
+    padding: 15px 15px;
     cursor: pointer;
     font-size: 1.6rem;
 }
@@ -98,87 +97,7 @@ nav{
 }
 /* navbar ended */
 
-
-   /* book Image started */
-   .book-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap:20px;
-    /* flex-wrap: wrap; */
-padding: 50px;
-
-  
-   }
-   .book-childeren{
-    border: 1px solid var(--grey-2) ;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
- width: 500px;
- 
-
-  
-    
-   }
-   .book-childeren > img{
-    width: 500px;
-    
-   
-   }
-   /* book Image ended*/
-
-
-
-/* branches started */
-.branches-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 10px;
-    padding-bottom: 60px;
-}
-.branches-childeren{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-  
-}
-.branches-childeren > h3{
-    font-family: butler;
-    font-size: 3rem;
-    font-weight: 100;
-    text-align: center;
-    padding-bottom: 5px;
-}
-.branches-childeren > span{
-  
-    font-size: 1.6rem;
-    
-    font-family: inter;
-    text-align: center;
-    padding: 10px;
-    font-weight: 300;
-
-}
-.branches-childeren > p{
-color: var(--grey);
-padding: 10px;
-font-size: 1.4rem;
-font-family: appercu;
-
-
-}
-
-
-
-/* branches ended */
-
-  /* footer started */
+ /* footer started */
 footer {
   background-color: var(--background-color);
   color:var(--white);
@@ -327,8 +246,104 @@ color:#ccc ;
   padding:5px;
 
 }
+/* forms started */
+.font-butler{
+    font-size: 3.5rem;
+    font-family: butler;
+    text-align: center;
+    font-weight: 800;
+    padding:0px 15px;
+    padding-top: 60px;
+}
+
+
+*/* Form Container */
+.forms-container {
+  background-color: #000;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Field Wrapper */
+.forms-children {
+  width: calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Full width for submit button or similar */
+.forms-children.full-width {
+  width: 100%;
+}
+
+/* Labels */
+.forms-children label {
+  font-size: 1.5rem;
+  color:var(--grey);
+ font-weight: 100;
+  font-family: appercu;
+  padding: 10px 10px;
+
+}
+
+
+/* Input and Select Fields */
+.forms-children input,
+.forms-children select {
+  background-color:var(--white);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #000;
+ 
+  outline: none;
+  width: 100%;
+}
+.sumbit-btn{
+    background-color:#ffc107;
+    color: var(--white);
+    border-radius: 62px;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1.4rem;
+    font-family: inter;
+    width: 172px;
+    height: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #ffda6b;
+}
 
 
 
 
+
+/* Show error icon when invalid */
+/* .forms-children input:invalid,
+.forms-children select:invalid {
+  border: 1px solid var(--red);
+  background-image: url("data:image/svg+xml,%3Csvg fill='red' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+} */
+
+/* forms ended */
    /* footer ended */
