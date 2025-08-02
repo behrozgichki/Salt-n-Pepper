@@ -45,10 +45,11 @@ body{
     font-family: futura;
     src: url(assets/fonts/futura-black/Futura\ Black.ttf);
 }
+/* navbar started */
 .nav-items > a{
 text-decoration: none;
 color: var(--white);
-font-size: 1.9rem;
+font-size: 1.7rem;
 }
 nav{
     display: flex;
@@ -89,6 +90,7 @@ nav{
     padding: 4px 5px;
     border-radius: 25px;
 }
+/* navbar ended */
 /* <!-- Welocme to Salt n Pepper started --> */
 .welcome{
     margin: 50px;

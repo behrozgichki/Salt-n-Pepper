@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --green: #28a745;
+  --grey: rgb(255 255 255 / 70%);
+  --light-grey: rgba(255, 255, 255, 0.7);
+  --background-color:rgba(255, 255, 255, 0.06);
+  --green:#28a745;
+}
+body{
+    background-color: var(--black); 
+    color: var(--white);
+    
+}
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: appercu;
+    src: url(assets/fonts/Apercu-Font/Apercu\ medium.otf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(assets/fonts/Futurak/futurak.ttf);
+}
+@font-face {
+    font-family: butler;
+    src: url(assets/fonts/butler/Butler/Butler_Regular.otf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(assets/fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: futura;
+    src: url(assets/fonts/futura-black/Futura\ Black.ttf);
+}
+/* navbar started */
+.nav-items > a{
+text-decoration: none;
+color: var(--white);
+font-size: 1.7rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    font-family: inter;
+    
+}
+.nav-items > button{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.franchise-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+.order-btn{
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 17px;
+}
+.order-icon{
+    background-color: var(--red);
+    color: var(--white);
+    padding: 4px 5px;
+    border-radius: 25px;
+}
+/* navbar ended */
+
+/* Introduction Started */
+.intro > h2{
+    font-size: 4rem;
+    text-align: center;
+    padding: 25px 30px;
+    font-family: inter;
+  
+}
+.intro > p{
+    font-size: 1.6rem;
+    color: var(--grey);
+    font-family: appercu;
+    font-weight: 300;
+}
+.first-img > h2{
+font-size: 3rem;
+font-weight: 300;
+font-family: inter;
+}
+.first-img > p{
+    font-size: 1.5rem;
+    color:  rgba(255, 255, 255, 0.7);
+    font-family: appercu;
+    font-weight: 300;
+
+}
+.first-img{
+ 
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.first-img > img{
+ float: left;
+}
+
+.font-futurak{
+    font-family: futurak;
+}
+.intro-first{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  
+}
+/* Introduction ended */
