@@ -14,6 +14,7 @@ html{
   --grey: rgb(255 255 255 / 70%);
   --light-grey: rgba(255, 255, 255, 0.7);
   --background-color:rgba(255, 255, 255, 0.06);
+  --green:#28a745;
 }
 body{
     background-color: var(--black); 
@@ -183,7 +184,7 @@ flex-direction: row;
 .main-text > h3{
     font-size: 2.6rem;
     font-family: appercu;
-    font-weight: 200px;
+    font-weight: 200;
 }
 .main-text > p{
 color: var(--light-grey);
@@ -243,10 +244,12 @@ margin-bottom: 10px;
     text-transform: uppercase;
     font-size: 1.2rem;
     color: var(--red);
-    letter-spacing: 0.50em;
+    letter-spacing: 0.60em;
     font-family: appercu;
     font-weight: lighter;
-    margin: 8px 0px;
+    
+
+    
     
 }
 .head-3{
@@ -288,6 +291,7 @@ margin-bottom: 10px;
 }
 .express-franchises-childeren > p{
     font-size: 1.4rem;
+    font-family: appercu;
 }
 .express-franchises-container-2{
     display: flex;
@@ -307,7 +311,61 @@ margin-bottom: 10px;
     gap: 10px;
     text-align: center;
     padding: 20px 15px;
+    background-color: var(--background-color);
 }
 
 
-/* express franchises ended */
+   /* <!-- Village Franchise started --> */
+.village-franchises-container{
+
+   background:var(--background-color);
+   padding: 80px;
+}
+.village-franchises-childeren{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.main-text-1 > p{
+color: var(--light-grey);
+margin-top: 20px;
+font-size: 1.4rem;
+margin-bottom: 10px;
+font-family: appercu;
+text-align: center;
+
+}
+.main-text-1 > h3{
+    font-family: appercu;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 100;
+
+    
+
+}
+.village-franchise-btn{
+     background-color: var(--green);
+    border: 1px solid var(--green);
+    color: var(--white);
+    padding: 20px 25px;
+    border-radius: 50px;
+    width: 174px;
+    height: 50px;
+    font-family: appercu;
+    cursor: pointer;
+    
+}
+.village-btn-icon{
+      background-color: var(--white);
+    color: var(--green);
+    border-radius: 50px;
+    padding: 3px;
+}
+.main-images-1{
+    float: left;
+}
+   /* <!-- Village Franchise ended --> */
