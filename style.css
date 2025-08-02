@@ -388,15 +388,32 @@ margin-left: 20px ;
    /* <!-- Village Franchise ended --> */
 
    /* location card started */
+   .location-cards{
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   }
+   .location-cards > h2{
+    font-size: 2.4rem;
+    font-family: butler;
+    font-weight: 400;
+   }
+   .location-cards > h2 span{
+    font-size: 1.8rem;
+   }
    .location-card{
     background-color: var(--white);
     color: var(--black);
     text-align: center;
     height: 230px;
-    padding: 25px 24px;
+    padding: 20px;
     margin-bottom: 32px;
     margin: auto;
     border-radius: 4px;
+    width: 260px;
 
    }
    .location-card > small{
@@ -406,13 +423,15 @@ margin-left: 20px ;
     letter-spacing: 0.48em;
     font-family: appercu;
     margin-bottom: 8px;
-    display: inline-block;
+    display: block;
     text-align: center;
-    font-weight: 400;
+    font-weight: bold;
     text-align: center
    }
    .location-card > img{
-
+width: 40px;
+height: 40px;
+margin-bottom: 10px;
 
    }
    .inter-font{
@@ -431,7 +450,15 @@ margin-left: 20px ;
     padding: 15px;
    }
  
-
+.font-futurak-1{
+    font-family: futurak;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.location-card > h4{
+    font-size: 1.8rem;
+    margin-top: 6px;
+}
 
     
 
