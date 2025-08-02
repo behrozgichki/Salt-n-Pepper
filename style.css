@@ -41,6 +41,10 @@ body{
     font-family: poppins;
     src: url(assets/fonts/poppins/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: futura;
+    src: url(assets/fonts/futura-black/Futura\ Black.ttf);
+}
 .nav-items > a{
 text-decoration: none;
 color: var(--white);
@@ -335,7 +339,8 @@ margin-top: 20px;
 font-size: 1.4rem;
 margin-bottom: 10px;
 font-family: appercu;
-text-align: center;
+/* text-align: center; */
+margin-left: 20px;
 
 }
 .main-text-1 > h3{
@@ -357,6 +362,7 @@ text-align: center;
     height: 50px;
     font-family: appercu;
     cursor: pointer;
+    margin-left: 20px;
     
 }
 .village-btn-icon{
@@ -364,8 +370,69 @@ text-align: center;
     color: var(--green);
     border-radius: 50px;
     padding: 3px;
+    
 }
 .main-images-1{
     float: left;
 }
+.small-text-1{
+     text-transform: uppercase;
+    font-size: 1.6rem;
+    color: var(--red);
+    letter-spacing: 0.48em;
+    font-family: appercu;
+    font-weight: 400px;
+    margin: 8px 0px;
+margin-left: 20px ;
+}
    /* <!-- Village Franchise ended --> */
+
+   /* location card started */
+   .location-card{
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    height: 230px;
+    padding: 25px 24px;
+    margin-bottom: 32px;
+    margin: auto;
+    border-radius: 4px;
+
+   }
+   .location-card > small{
+     text-transform: uppercase;
+    font-size: 1.1rem;
+    color: var(--red);
+    letter-spacing: 0.48em;
+    font-family: appercu;
+    margin-bottom: 8px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    text-align: center
+   }
+   .location-card > img{
+
+
+   }
+   .inter-font{
+    font-family: inter;
+    font-size: 2rem;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+   }
+   .location-card > h4{
+    font-size: 2rem;
+    font-weight: 200;
+   }
+   .location-card > p{
+    font-size: 2rem;
+    padding: 15px;
+   }
+ 
+
+
+    
+
+   /* location card ended */
