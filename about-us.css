@@ -85,9 +85,9 @@ nav{
     padding: 12px 17px;
 }
 .order-icon{
-    background-color: var(--red);
-    color: var(--white);
-    padding: 4px 5px;
+    background-color: var(--white);
+    color: var(--red);
+    padding: 5px 5px;
     border-radius: 25px;
 }
 /* navbar ended */
@@ -121,15 +121,15 @@ font-family: inter;
 }
 .first-img{
  
-display: flex;
+/* display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
-align-items: center;
+align-items: center; */
 
 }
 .first-img > img{
  float: left;
- padding: 20px 25px;
+ 
 }
 
 .font-futurak{
@@ -140,7 +140,7 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    padding: 20px 25px;
+    /* padding: 20px 25px; */
   
 }
 .intro-first-1{
@@ -173,6 +173,13 @@ align-items: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.heading-1{
+    font-size: 32px;
+    font-family: inter;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 25px;
 }
 
 /* Introduction ended */

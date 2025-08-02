@@ -85,9 +85,9 @@ nav{
     padding: 12px 17px;
 }
 .order-icon{
-    background-color: var(--red);
-    color: var(--white);
-    padding: 4px 5px;
+    background-color: var(--white);
+    color: var(--red);
+    padding: 5px 5px;
     border-radius: 25px;
 }
 /* navbar ended */
