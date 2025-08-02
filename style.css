@@ -388,86 +388,100 @@ margin-left: 20px ;
    /* <!-- Village Franchise ended --> */
 
    /* location card started */
-   .location-cards{
-    padding: 50px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 50px;
-    align-items: center;
-   }
-   .location-cards > h2{
-    font-size: 2.4rem;
-    font-family: butler;
-    font-weight: 400;
-   }
-   .location-cards > h2 span{
-    font-size: 1.8rem;
-   }
-   .location-card{
-    background-color: var(--white);
-    color: var(--black);
-    text-align: center;
-    height: 230px;
-    padding:25px 20px;
-    
-    border-radius: 4px;
-    width: 270px;
 
-   }
-   .location-card > small{
-     text-transform: uppercase;
-    font-size: 1.1rem;
-    color: var(--red);
-    letter-spacing: 0.48em;
-    font-family: appercu;
-    margin-bottom: 8px;
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    text-align: center
-   }
-   .location-card > img{
-width: 40px;
-height: 40px;
-margin-bottom: 10px;
 
-   }
-   .inter-font{
-    font-family: inter;
-    font-size: 2rem;
-    padding: 10px;
-    padding-bottom: 10px;
-    font-weight: bold;
-   }
-   .location-card > h4{
-    font-size: 2rem;
-    font-weight: 200;
-   }
-   .location-card > p{
-    font-size: 2rem;
-    padding: 15px;
-   }
+ .location-cards {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  
+}
+
+
+.location-cards h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.font-futurak-1 {
+  font-family: futurak; 
+  font-weight: bold;
+}
+
+
+.location-cards h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  font-family: inter;
+} 
+
+.location-cards h2 span {
+  color: #bbb;
+  font-weight: normal;
+}
+
+
+.location-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.location-card {
+  background-color:var(--white);
+  color:var(--black);
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  
+}
+
+
+
+
+.location-card img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+.location-card small {
+  color:var(--red);
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+}
+
+
+.location-card > h4 {
+  margin: 5px 3px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: inter;
  
-.font-futurak-1{
-    font-family: futurak;
-    font-size: 4rem;
-    margin-bottom: 10px;
-}
-.location-card > h4{
-    font-size: 1.8rem;
-    margin-top: 6px;
+ 
 }
 
-    
-.location-cards-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    align-items: center;
+
+.inter-font {
+  font-weight: bold;
 }
+
+.location-card p {
+  margin: 5px 0;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+} 
+
    /* location card ended */
