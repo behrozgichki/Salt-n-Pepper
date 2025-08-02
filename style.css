@@ -390,9 +390,9 @@ margin-left: 20px ;
    /* location card started */
    .location-cards{
     padding: 50px 20px;
-    /* text-align: center; */
+    text-align: center;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px; 
@@ -462,5 +462,10 @@ margin-bottom: 10px;
 }
 
     
-
+.location-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
    /* location card ended */
