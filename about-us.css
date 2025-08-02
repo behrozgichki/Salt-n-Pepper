@@ -119,14 +119,7 @@ font-family: inter;
     padding-bottom: 20px;
 
 }
-.first-img{
- 
-/* display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-align-items: center; */
 
-}
 .first-img > img{
  float: left;
  
@@ -183,3 +176,372 @@ align-items: center; */
 }
 
 /* Introduction ended */
+/* location strated */
+
+.express-franchises > h2{
+    font-size: 5rem;
+    text-align: center;
+}
+.express-franchises-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 15px;
+}
+.express-franchises > img{
+    height: 250px;
+   
+}
+.small-text-2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--red);
+    letter-spacing: 0.60em;
+    font-family: appercu;
+    font-weight: lighter;
+    
+
+    
+    
+}
+.head-3{
+    font-family: futurak;
+    font-size: 2.4rem;
+    padding: 20px 4px;
+
+}
+.express-franchises-childeren > p{
+    color: var(--light-grey);
+    padding: 15px;
+}
+.exp-franchise-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid rgba(255, 255, 255, 0.3);;
+    width: 174px;
+    height: 50px;
+    font-family: poppins;
+    font-size: 1.3rem;
+    font-weight: 100px;
+    padding: 10px 0px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.exp-btn-icon{
+      background-color: var(--white);
+    color:var(--red);
+    width: 27px;
+    height: 27px;
+    padding: 6px 8px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.express-franchises-childeren > h3{
+    font-size: 2rem;
+    font-family: inter;
+    font-weight: 500;
+}
+.express-franchises-childeren > p{
+    font-size: 1.4rem;
+    font-family: appercu;
+}
+.express-franchises-container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 15px;
+    background-color: var(--background-color);
+}
+.express-franchises-container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 15px;
+    background-color: var(--background-color);
+}
+
+
+   /* <!-- Village Franchise started --> */
+.village-franchises-container{
+
+   background:var(--background-color);
+   padding: 80px;
+}
+.village-franchises-childeren{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.main-text-1 > p{
+color: var(--light-grey);
+margin-top: 20px;
+font-size: 1.4rem;
+margin-bottom: 10px;
+font-family: appercu;
+/* text-align: center; */
+margin-left: 20px;
+
+}
+.main-text-1 > h3{
+    font-family: appercu;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 100;
+
+    
+
+}
+.village-franchise-btn{
+     background-color: var(--green);
+    border: 1px solid var(--green);
+    color: var(--white);
+    padding: 20px 25px;
+    border-radius: 50px;
+    width: 174px;
+    height: 50px;
+    font-family: appercu;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+.village-btn-icon{
+      background-color: var(--white);
+    color: var(--green);
+    border-radius: 50px;
+    padding: 3px;
+    
+}
+.main-images-1{
+    float: left;
+}
+.small-text-1{
+     text-transform: uppercase;
+    font-size: 1.6rem;
+    color: var(--red);
+    letter-spacing: 0.48em;
+    font-family: appercu;
+    font-weight: 400px;
+    margin: 8px 0px;
+margin-left: 20px ;
+}
+.express-franchises > h4{
+    font-size: 3rem;
+    font-family: inter;
+    text-align: center;
+}
+/* locations ended */
+
+  /* <!-- Village Franchise started --> */
+.village-franchises-container{
+
+   
+ padding: 80px;
+}
+.village-franchises-childeren{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.main-text-1 > p{
+color: var(--light-grey);
+margin-top: 20px;
+font-size: 1.4rem;
+margin-bottom: 10px;
+font-family: appercu;
+/* text-align: center; */
+margin-left: 20px;
+
+}
+.main-text-1 > h3{
+    font-family: appercu;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 100;
+
+    
+
+}
+
+    
+.main-images-1{
+    float: left;
+}
+.small-text-1{
+     text-transform: uppercase;
+    font-size: 1.6rem;
+    color: var(--red);
+    letter-spacing: 0.30em;
+    font-family: appercu;
+    font-weight: 400px;
+    margin: 8px 0px;
+margin-left: 20px ;
+}
+   /* <!-- Village Franchise ended --> */
+    /* footer started */
+   
+footer {
+  background-color: #111;
+  color: #f0f0f0;
+  padding: 50px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+
+.footer,
+.site-links,
+.contact-us {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+
+.footer img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ccc;
+  margin-bottom: 15px;
+  font-family: appercu;
+}
+
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+
+
+.site-links {
+  font-size: 1.6rem;
+  color:var(--white);
+}
+
+.site-links ul {
+  list-style: none;
+  margin-top: 10px;
+  font-family: appercu;
+}
+
+.site-links ul li {
+  margin-bottom: 10px;
+}
+
+.site-links ul li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1.4rem;
+  
+}
+
+
+
+/* Contact Us Section */
+.contact-us {
+  font-size: 16px;
+  color:var(--white);
+  padding: 10px;
+}
+
+.contact-us >p {
+font-family: appercu;
+color:#ccc ;
+
+}
+.span-1{
+    font-family: inter;
+}
+.contact-us ul,
+.contact-us a {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.contact-us span {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-us ul {
+  list-style: none;
+  margin: 10px 0;
+  font-family: appercu;
+}
+
+.contact-us li {
+  margin-bottom: 6px;
+}
+
+.contact-us a {
+  display: inline-block;
+  margin: 8px 0;
+  text-decoration: none;
+  color: #aaa;
+  
+}
+
+.contact-us h4{
+    font-family:inter ;
+}
+
+.icons {
+  margin-top: 20px;
+  font-weight: bold;
+  color:var(--white);
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 20px;
+  color:var(--white);
+  background-color: var(--red);
+  border-radius: 20px;
+  padding:5px;
+
+}
+
+
+
+
+   /* footer ended */
