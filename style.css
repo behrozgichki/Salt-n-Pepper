@@ -237,7 +237,7 @@ margin-bottom: 10px;
 }
 .express-franchises > img{
     height: 250px;
-    width: 100%;
+   
 }
 .small-text-2{
     text-transform: uppercase;
@@ -289,5 +289,25 @@ margin-bottom: 10px;
 .express-franchises-childeren > p{
     font-size: 1.4rem;
 }
+.express-franchises-container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 15px;
+    background-color: var(--background-color);
+}
+.express-franchises-container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 15px;
+}
+
 
 /* express franchises ended */
